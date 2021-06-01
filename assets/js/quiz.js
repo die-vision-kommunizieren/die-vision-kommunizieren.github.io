@@ -182,6 +182,7 @@ var quiz = {
                 } else {
                     quiz.hQn.innerHTML = `Sehr gut, du hast ${quiz.score} von ${quiz.data.length} Fragen richtig beantwortet! Du bist jetzt gewappnet deine Vision zu kommunizieren.`;
                     quiz.hAns.innerHTML = "";
+                    document.getElementById("endQuiz").style.display = 'block';
                 }
             }
         }, 1000);
