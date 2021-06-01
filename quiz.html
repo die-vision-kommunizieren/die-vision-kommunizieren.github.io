@@ -64,16 +64,16 @@
             <div class="wrapper">
                 <div class="cell">
                     <div class="page">
-                        <div id="quizWrap"></div>
-                        <button id="backToQuiz" class="btn" style="display: none"><a href="quiz.html">Noch einmal!</a></button>
-                        <button id="readAgain" class="btn" style="display: none"><a href="vision.html">Nachlesen</a></button>
-                        <div id="endQuiz" style="display: none">
+                        <div id="endQuiz" class="center" style="display: none">
                             <img src="assets/img/consultant.png" alt="Consultant">
-                            <audio autoplay>
+                            <audio id="end-audio" preload="auto">
                                 <source src="assets/audio/ende.mp4" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                         </div>
+                        <div id="quizWrap"></div>
+                        <button id="backToQuiz" class="btn" style="display: none"><a href="quiz.html">Noch einmal!</a></button>
+                        <button id="readAgain" class="btn" style="display: none"><a href="vision.html">Nachlesen</a></button>
                     </div>
                 </div>
             </div>
