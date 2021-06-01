@@ -185,6 +185,7 @@ var quiz = {
                     document.getElementById("endQuiz").style.display = 'block';
                     let endAudio = document.getElementById('end-audio');
                     endAudio.addEventListener('canplaythrough', function() {
+                        this.currentTime = 26;
                         this.play();
                     });
                 }
