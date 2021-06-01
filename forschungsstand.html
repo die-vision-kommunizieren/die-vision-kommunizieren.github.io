@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon">
+    <script>
+        try{
+            Typekit.load();
+        }
+        catch(e){}
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.animate.js"></script>
+    <script src="assets/js/jquery.anchorScroll.js"></script>
+    <script src="assets/js/jquery.masonry.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/jquery.placeholder.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <title>Die Vision kommunizieren</title>
+    <script>
+        $(document).ready(function() {
+            $('.slidewrap').carousel({
+                slider: '.slider',
+                slide: '.slide',
+                slideHed: '.slidehed',
+                nextSlide : '.next',
+                prevSlide : '.prev',
+                addPagination: false,
+                addNav : false
+            });
+
+            $('.slidewrap').bind('carousel-validate', function(e, data) {
+                e.valid = true;
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+
+    <!-- Navigation -->
+
+    <div class="button-container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="index.html">Kleinod GmbH</a></li>
+                <li><a href="vision.html">Was ist eine Vision?</a></li>
+                <li><a href="vision_kommunizieren.html">Vision kommunizieren</a></li>
+                <li><a href="fuehrungskraefte.html" class="submenu">Führungskräfte</a></li>
+                <li><a href="mitarbeiter.html" class="submenu">Mitarbeiter</a></li>
+                <li><a href="forschungsstand.html">Aktueller Forschungsstand</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="quellen.html" class="submenu topSpace">Quellen</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<!-- Slide -->
+
+<section class="slidewrap">
+    <ul class="slider" id="sliderName">
+        <li id="vision_kommunizieren" class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Quelle 1</h2>
+                        <img src="assets/img/forschungsstand-q1.png" alt="Quelle 1">
+                        <p class="source">(Lauer, 2021)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Quelle 2</h2>
+                        <p> • Einheitliche Kommunikation auf allen Kanälen</br>
+                            • Dieselben Informationen für jeden Mitarbeiten</br>
+                            • Proaktive transparente Kommunikation</br>
+                            • Nicht nur was, sondern auch warum kommunizieren</br>
+                            • Partizipation schafft Akzeptanz</br>
+                        </p>
+                        <p class="source">(Kaiser, Schwertner, 2020)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Quelle 3</h2>
+                        <p> • Mitarbeiter und Geschäftspartner abholen und mitnehmen</br>
+                            • Kommunikation von Vision ist Chefsache, Klarheit und Verständlichkeit stehen im Vordergrund</br>
+                            • Zuhören statt mit Argumenten ruhigstellen</br>
+                            • Führungsmitarbeiter bekommen Schlüsselrolle in der Kommunikation der Vision</br>
+                            • Leuchtturm-Projekte als Aushängeschild der laufenden Transformation in den Mittelpunkt stellen</br>
+                            • Wirkung und Erreichung der Transformationsziele kommunizieren</br>
+
+                        </p>
+                        <p class="source">(Klasen, 2019)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page-large__width">
+                        <div class="two-images-layout">
+                            <img src="assets/img/forschungsstand-q3.png" alt="Quelle 3">
+                            <img src="assets/img/forschungsstand-q3-2.png" alt="Quelle 3">
+                        </div>
+                        <p class="source">(Klasen, 2019)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Quelle 4</h2>
+                        <p> Veränderungsvorhaben scheitern weil:<br/>
+                            • Manager kommunizieren zu wenig<br/>
+                            • Widersprüchliche Botschaften über unterschiedliche Kanäle vermittelt<br/>
+                            <br/>
+                            Große Veränderungsprozesse brauchen mehr Kommunikation einer Vision.<br/>
+                            Vision kommunizieren ist Grundlage, damit Mitarbeiter entscheiden können sich dem Prozess anzuschließen.<br/>
+                        </p>
+                        <p class="source">(Maximini, 2012)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Quelle 5/6</h2>
+                        <p> Beide Quellen betonen Wichtigkeit der Visionskommunikation, aber Uneinigkeit über Art und Weise.<br/><br/>
+                            • Judson: Gute Vision muss nicht vollständig transparent Inhalte kommunizieren um erfolgreich sein.<br/>
+                            • Hiatt: Vollständige Transparenz als Grundlage für geeignete Vision erforderlich.<br/>
+                        </p>
+                        <p class="source">(Judson, A., 1991, Hiatt, J.M., 2006)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Fazit</h2>
+                        <p> • Einigkeit in der Forschung, dass es enorm wichtig ist für den Veränderungsprozess eine Vision zu kommunizieren.<br/>
+                            • Unterschiedliche Meinungen dazu, wie eine Vision idealerweise aufgebaut ist.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2><span class="highlighted">Glückwunsch!</span><br/></h2>
+                        <p>Du bist nur noch einen Test davon entfernt deine Vision zu kommunizieren.
+                            Traust du dich schon oder klickst du dich lieber noch einmal durch das Menü und die Inhalte?</p>
+                        <button class="btn"><a href="quiz.html">Quiz starten</a></button>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<div>
+    <a href="#sliderName" class="prev prev-arrow">&larr;</a><a href="#sliderName" class="next next-arrow">&rarr;</a>
+</div>
+
+</body>
+</html>

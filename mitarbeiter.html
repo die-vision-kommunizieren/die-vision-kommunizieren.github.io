@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>
+<html lang="en" class="ie7"><![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon">
+    <script>
+        try {
+            Typekit.load();
+        }
+        catch (e) {}
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.animate.js"></script>
+    <script src="assets/js/jquery.anchorScroll.js"></script>
+    <script src="assets/js/jquery.masonry.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/jquery.placeholder.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <title>Mitarbeiter - Die Vision kommunizieren</title>
+    <script>
+        $(document).ready(function () {
+            $('.slidewrap').carousel({
+                slider: '.slider',
+                slide: '.slide',
+                slideHed: '.slidehed',
+                nextSlide: '.next',
+                prevSlide: '.prev',
+                addPagination: false,
+                addNav: false
+            });
+
+            $('.slidewrap').bind('carousel-validate', function (e, data) {
+                e.valid = true;
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+
+    <!-- Navigation -->
+
+    <div class="button-container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="index.html">Kleinod GmbH</a></li>
+                <li><a href="vision.html">Was ist eine Vision?</a></li>
+                <li><a href="vision_kommunizieren.html">Vision kommunizieren</a></li>
+                <li><a href="fuehrungskraefte.html" class="submenu">Führungskräfte</a></li>
+                <li><a href="mitarbeiter.html" class="submenu">Mitarbeiter</a></li>
+                <li><a href="forschungsstand.html">Aktueller Forschungsstand</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="quellen.html" class="submenu topSpace">Quellen</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<!-- Slide -->
+<section class="slidewrap">
+    <ul class="slider" id="sliderName">
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Kommunikation der Vision an die Mitarbeiter</h2>
+                        <p>Nachdem die Vision an die Führungskräfte kommuniziert wurde, ist es nun deren Aufgabe
+                            die Vision an die Mitarbeiter heranzutragen, auch hier ist es entscheidend, dass die
+                            Mitarbeiter die <span class="highlighted-dark">Vision nicht nur kennen sondern verstehen</span>.
+                            Dabei spielt die <span class="highlighted-dark">Unterstützung von Seiten der Führungskräfte </span>
+                            eine wichtige Rolle, da Mitarbeiter nicht nur positiv auf
+                            geplante Veränderungen reagieren. Um diese Hürden abzubauen ist es wichtig, dass die
+                            betroffenen Personen sich mit ihren Problemen an die Vorgesetzten wenden können.</p>
+                        <p class="source">(Ebert, Münch, 2018, S. 9f)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Schritt 1</h2>
+                        <p>Vision bekannt machen durch eine Visions-Informationsveranstaltung.<br/><br/>
+                        <span class="highlighted-dark">Umsetzung</span><br/> Die Idee wird präsentiert und es dürfen Fragen gestellt werden.<br/><br/>
+                        <span class="highlighted-dark">Ergebnis</span><br/> Alle Mitarbeiter kennen die Vision, ihre Hintergründe und die geplanten nächsten Schritte zur Umsetzung.</p>
+                        <p class="source">(Ebert, Münch, 2018, S. 9f)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Schritt 2</h2>
+                        <p>Vision für die Mitarbeiter verständlich und nachvollziehbar machen durch den Visionsdialog.<br/><br/>
+                        <span class="highlighted-dark">Umsetzung</span><br/>Die Teams besprechen mit ihren Vorgesetzten die Inhalte und erarbeiten die Bedeutung für ihre
+                        Arbeitsinhalte und Arbeitsabläufe.<br/><br/>
+                        <span class="highlighted-dark">Ergebnis</span><br/>Die Teams wissen welche Veränderung auf ihren Arbeitsalltag zukommt
+                        </p>
+                        <p class="source">(Ebert, Münch, 2018, S. 9f)</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2>Schritt 3</h2>
+                        <p>Vision am Leben halten durch das Visionshandbuch und Teamrunden.<br/><br/>
+                            <span class="highlighted-dark">Umsetzung</span><br/>In dem als Nachschlagewerk dienenden Visionshandbuch wird die Vision detailliert erläutert um sie für
+                            alle verständlich zur Verfügung zu stellen. Die regelmäßigen Teamrunden werden von den Führungskräften initiiert
+                            um die Vision im Gespräch zu halten, dort können außerdem offene Fragen besprochen und Bezüge zur aktuellen
+                            Situation hergestellt werden.<br/><br/>
+                            <span class="highlighted-dark">Ergebnis</span><br/> Die Mitarbeiter fühlen sich unterstützt und sind gut vorbereitet auf die kommenden Veränderungen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2><span class="highlighted">Gleich geschafft!</span><br/></h2>
+                        <p>Aber eine Frage fehlt uns noch... Was sagen denn andere Quellen zu dem Thema Vision kommunzieren?</p>
+                        <button class="btn"><a href="forschungsstand.html">zum aktuellen Forschungsstand</a></button>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<div>
+    <a href="#sliderName" class="prev prev-arrow">&larr;</a><a href="#sliderName" class="next next-arrow">&rarr;</a>
+</div>
+
+
+</body>
+</html>

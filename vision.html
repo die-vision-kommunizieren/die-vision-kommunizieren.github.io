@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon">
+    <script>
+        try{
+            Typekit.load();
+        }
+        catch(e){}
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.animate.js"></script>
+    <script src="assets/js/jquery.anchorScroll.js"></script>
+    <script src="assets/js/jquery.masonry.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/jquery.placeholder.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <title>Die Vision kommunizieren</title>
+    <script>
+        $(document).ready(function() {
+            $('.slidewrap').carousel({
+                slider: '.slider',
+                slide: '.slide',
+                slideHed: '.slidehed',
+                nextSlide : '.next',
+                prevSlide : '.prev',
+                addPagination: false,
+                addNav : false
+            });
+
+            $('.slidewrap').bind('carousel-validate', function(e, data) {
+                e.valid = true;
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+
+    <!-- Navigation -->
+
+    <div class="button-container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="index.html">Kleinod GmbH</a></li>
+                <li><a href="vision.html">Was ist eine Vision?</a></li>
+                <li><a href="vision_kommunizieren.html">Vision kommunizieren</a></li>
+                <li><a href="fuehrungskraefte.html" class="submenu">Führungskräfte</a></li>
+                <li><a href="mitarbeiter.html" class="submenu">Mitarbeiter</a></li>
+                <li><a href="forschungsstand.html">Aktueller Forschungsstand</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="quellen.html" class="submenu topSpace">Quellen</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<!-- Slide -->
+
+<div class="slidewrap backgrounded-slide">
+    <ul class="slider" id="sliderName">
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <h2 class="white">Bevor eine klare Vision kommuniziert werden kann, muss es erstmal eine Vision geben.</h2>
+                        <a href="#sliderName" class="small next highlighted-dark">Was ist eigentlich eine Vision?</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="wrapper">
+                <div class="cell">
+                    <div class="page">
+                        <p class="white">Eine Vision hat häufig unterschiedliche Bedeutungen und überschneidet sich mit Begriffen, wie Mission, Leitbild, Unternehmensziel und Unternehmensstrategie. Alle Bedeutungen beschreiben einen zukunftsweisenden Charakter der Ziel- und Orientierungsfunktion. Doch wird eine Vision von den meisten Autoren als ein <span class="highlighted-dark">unspezifisches Ziel</span>, welches am eigenen Handeln ausgerichtet ist, bezeichnet. Des Weiteren spiegelt eine Vision eine generelle <span class="highlighted-dark">Leitidee</span>, <span class="highlighted-dark">unternehmerische Ausrichtung</span> und den Ursprung der Tätigkeit eines Unternehmens da. Mit ihr kann ein wünschenswertes <span class="highlighted-dark">realisierbares Zukunftsbild</span> eines Unternehmens dargestellt werden. Zeitlich wird die Vision nicht eingeschränkt und kann weite Projektion in die Zukunft bieten. Im Fall der Kleinod GmbH ist die Vision die Digitalisierung zur Rettung des Unternehmens in der Corona Pandemie. Die Digitalisierungsstrategie umfasst viele Veränderungen des Unternehmens von analogen Produktionsprozessen zu digitalen. Darüber hinaus übernimmt das Onlinemarketing die hauptsächliche Neukundengewinnung und den hauptsächlichen Verkauf von gefertigten Produkten. Daher wird ein Umdenken und Anpassen der Führungskräfte und der Mitarbeiter von Nöten sein…</p>
+                        <button class="btn"><a href="vision_kommunizieren.html">Vision kommunizieren</a></button>
+<!--                        <audio autoplay>-->
+<!--                            <source src="assets/audio/vision.mp4" type="audio/mp4">-->
+<!--                            Your browser does not support the audio element.-->
+<!--                        </audio>-->
+<!--                        <iframe src="assets/audio/vision.mp4" title="vision" allow=”autoplay” id=”audio” style=”display:none”></iframe>-->
+                        <audio autoplay>
+                            <source src="assets/audio/vision.mp4" type=”audio/mp4″>
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div>
+    <a href="#sliderName" class="prev prev-arrow">&larr;</a><a href="#sliderName" class="next next-arrow">&rarr;</a>
+</div>
+
+
+</body>
+</html>
