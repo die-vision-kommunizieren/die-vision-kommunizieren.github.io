@@ -157,9 +157,10 @@
                         <img src="assets/img/Differenzierung.jpg" alt="Differenzierung Führungskräfte und Mitarbeiter" class="center img--width">
                         <img src="assets/img/consultant.png" alt="Consultant">
                         <p class="source">Quelle: Eigene Darstellung</p>
-                        <input type="button" value="Wieso diese Reihenfolge?" onclick="play()">
-                        <iframe id="differenzierung2" src="assets/audio/differenzierung.mp4" title="Differenzierung" style=”display:none”></iframe>
-                        <audio preload="auto" id="differenzierung" src="assets/audio/differenzierung.mp4" title="Differenzierung"></audio>
+                        <audio src="assets/audio/differenzierung.mp3" id="differenzierungAudio"></audio>
+                        <button id="btn" class="button-grey">Wieso diese Reihenfolge?</button>
+<!--                        <input type="button" value="Wieso diese Reihenfolge?" onclick="play()" class="button-grey">-->
+<!--                        <audio preload="auto" id="differenzierung" src="assets/audio/differenzierung.mp4" title="Differenzierung"></audio>-->
                         <p class="topSpace-img">Differenzierung verstanden? <br/> Dann geht's nun zu den Führungskräften.</p>
                         <section>
                             <button class="btn"><a href="fuehrungskraefte.html">zu den Führungskräften</a></button>
@@ -175,12 +176,9 @@
 </div>
 
 <script>
-    function play() {
-        let audio = document.getElementById("differenzierung");
-        audio.play();
-        let audioChrome = document.getElementById("differenzierung2");
-        audioChrome.play();
-    }
+    document.getElementById("btn").addEventListener("click",function(){
+        document.getElementById("differenzierungAudio").play();
+    });
 </script>
 </body>
 </html>
