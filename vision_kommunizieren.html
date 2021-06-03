@@ -157,11 +157,9 @@
                         <img src="assets/img/Differenzierung.jpg" alt="Differenzierung Führungskräfte und Mitarbeiter" class="center img--width">
                         <img src="assets/img/consultant.png" alt="Consultant">
                         <p class="source">Quelle: Eigene Darstellung</p>
-                        <div class="div-audio">
-                            <button
-                        </div>
+                        <input type="button" value="Wieso diese Reihenfolge?" onclick="play()">
+                        <audio preload="auto" id="differenzierung" src="assets/audio/differenzierung.mp4" title="Differenzierung"></audio>
                         <p class="topSpace-img">Differenzierung verstanden? <br/> Dann geht's nun zu den Führungskräften.</p>
-
                         <section>
                             <button class="btn"><a href="fuehrungskraefte.html">zu den Führungskräften</a></button>
                         </section>
@@ -175,5 +173,11 @@
     <a href="#sliderName" class="prev prev-arrow">&larr;</a><a href="#sliderName" class="next next-arrow">&rarr;</a>
 </div>
 
+<script>
+    function play() {
+        let audio = document.getElementById("differenzierung");
+        audio.play();
+    }
+</script>
 </body>
 </html>
