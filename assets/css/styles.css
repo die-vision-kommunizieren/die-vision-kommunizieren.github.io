@@ -670,6 +670,10 @@ hr.titlehr {
     padding-top: 75px;
 }
 
+.hide-control {
+    display: none;
+}
+
 /*        SECTION PROJECTS-SLIDE       */
 
 .projects-slide {
