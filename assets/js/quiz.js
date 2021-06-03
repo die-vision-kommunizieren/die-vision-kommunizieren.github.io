@@ -8,7 +8,7 @@ var quiz = {
             o : [
                 "offenes, aktives und konkreter Informationsverhalten",
                 "konsistente, widerspruchsfreie, konstante und nachvollziehbare Aussagen",
-                "Veränderung wird aktiv von den Führungskräften vorgelebt"
+                "Veränderung wird aktiv von den Führungskräften vorgelebt",
                 "keine Wiederholung",
             ],
             a : 3
