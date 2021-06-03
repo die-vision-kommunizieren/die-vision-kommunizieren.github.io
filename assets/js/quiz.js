@@ -135,7 +135,7 @@ var quiz = {
             quiz.hAns.appendChild(label);
         }
 
-        quiz.hAns.append(`Frage ${quiz.now} von ${quiz.data.length}`);
+        quiz.hAns.append(`Frage ${quiz.now + 1} von ${quiz.data.length}`);
     },
 
     // (D) OPTION SELECTED
