@@ -291,6 +291,10 @@ img {
     width: 300px;
 }
 
+.full-width {
+    width: 100%;
+}
+
 body, input, textarea, button {
     font-size: 125%;
     line-height: 1.5;
