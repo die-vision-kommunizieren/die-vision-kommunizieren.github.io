@@ -165,7 +165,7 @@ var quiz = {
                     quiz.hAns.innerHTML = "";
                     document.getElementById("readAgain").style.display = 'block';
                 }
-                else if (quiz.score <= 8) {
+                else if (quiz.score <= 7) {
                     quiz.hQn.innerHTML = `Du hast ${quiz.score} von ${quiz.data.length} Fragen richtig beantwortet. Probier es doch nochmal. Da ist noch Luft nach oben.`;
                     quiz.hAns.innerHTML = "";
                     document.getElementById("backToQuiz").style.display = 'block';
