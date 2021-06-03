@@ -8,17 +8,17 @@ var quiz = {
             o : [
                 "offenes, aktives und konkreter Informationsverhalten",
                 "konsistente, widerspruchsfreie, konstante und nachvollziehbare Aussagen",
-                "keine Wiederholung",
                 "Veränderung wird aktiv von den Führungskräften vorgelebt"
+                "keine Wiederholung",
             ],
-            a : 0
+            a : 3
         },
         {
             q : "Welcher Kanal eignet sich nicht für die Kommunikation?",
             o : [
                 "Workshops",
-                "Privater Chat",
                 "Teamrunde",
+                "Privater Chat",
                 "Vier-Augen-Gespräch"
             ],
             a : 2
