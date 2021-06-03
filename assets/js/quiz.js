@@ -4,42 +4,32 @@ var quiz = {
     // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
     data: [
         {
-            q : "Welche Faktoren sorgen für eine hohe Glaubwürdigkeit und beugen somit Widerstände vor?",
+            q : "Welche Faktoren sorgen für eine hohe Unglaubwürdigkeit und sorgen für Widerstände bei  den Beteiligten? ",
             o : [
                 "offenes, aktives und konkreter Informationsverhalten",
                 "konsistente, widerspruchsfreie, konstante und nachvollziehbare Aussagen",
-                "häufige Wiederholung",
+                "keine Wiederholung",
                 "Veränderung wird aktiv von den Führungskräften vorgelebt"
             ],
             a : 0
         },
         {
-            q : "Wieso ist die Anwendung einer Multikanalstrategie sinnvoll?",
+            q : "Welcher Kanal eignet sich nicht für die Kommunikation?",
             o : [
-                "Menschen nehmen aus unterschiedlichen Kanälen unterschiedliche Informationen gut auf",
-                "Menschen nehmen aus unterschiedlichen Kanälen unterschiedliche Informationen gut auf",
-                "Menschen nehmen aus unterschiedlichen Kanälen unterschiedliche Informationen gut auf",
-                "Menschen nehmen aus unterschiedlichen Kanälen unterschiedliche Informationen gut auf"
+                "Workshops",
+                "Privater Chat",
+                "Teamrunde",
+                "Vier-Augen-Gespräch"
             ],
             a : 2
         },
         {
-            q : "Welches Sie Beispiele für mögliche Kanäle.",
-            o : [
-                "Artikel im Intranet",
-                "Quatsch2",
-                "Quatsch3",
-                "Quatsch4"
-            ],
-            a : 0
-        },
-        {
             q : "Wann wird die Vision an die Mitarbeiter kommuniziert?",
             o : [
+                "Nachdem sie an die Führungskräfte kommuniziert wurde",
                 "Kurz nachdem die Veränderungen eingeführt worden sind",
                 "Zeitgleich mit der Kommunikation an die Führungskräften",
-                "Bevor sie an die Führungskräfte kommuniziert wird",
-                "Nachdem sie an die Führungskräfte kommuniziert wurde"
+                "Bevor sie an die Führungskräfte kommuniziert wird"
             ],
             a : 0
         },
@@ -47,19 +37,19 @@ var quiz = {
             q : "Was ist bei der Kommunikation der Vision an die Mitarbeiter\n" +
                 "wichtig?",
             o : [
-                "Nicht nur kennen, sondern Verstehen der Vision",
+                "Nur kennen der Vision",
                 "Möglichst früh an die Mitarbeiter kommunizieren",
-                "Unterstützung von Seiten der Führungskräfte",
-                "Alle Mitarbeiter werden zeitgleich informiert"
+                "Alle Mitarbeiter werden zeitgleich informiert",
+                "Vision muss an den Arbeitsalltag angepasst werden",
             ],
             a : 3
         },
         {
             q : "Was passiert in der Visions-Informationsveranstaltung?",
             o : [
-                "Die Vision wird den Mitarbeitern präsentiert",
+                "Reine Informationsveranstaltung, keine Fragen erlaubt",
                 "Die Vision wird ausgearbeitet",
-                "Es dürfen Fragen zur Vision gestellt werden",
+                "Die Vision wird den Mitarbeitern präsentiert mit anschließender Fragerunde",
                 "Die Führungskräfte besprechen die Vision"
             ],
             a : 2
@@ -75,21 +65,21 @@ var quiz = {
             a : 2
         },
         {
-            q : "Was ist ein Visionshandbuch?",
+            q : "Was ist  nicht Teil des Visionshandbuch?",
             o : [
-                "Enthält alle Informationen zur Vision und erläutert diese",
-                "Adressiert offene Fragen",
+                "Alle Informationen zur Vision und erläutert diese",
+                "Enthält Bilder aller beteiligten Personen",
                 "Dient als Nachschlagewerk für alle Beteiligten",
-                "Enthält Bilder aller beteiligten Personen"
+                "Adressiert offene Fragen"
             ],
             a : 1
         },
         {
             q : "Was soll mit den Teamrunden erreicht werden?",
             o : [
-                "Die Mitarbeiter sollen bei den Veränderungen unterstützt werden",
-                "Die Mitarbeiter sollen über die Vision informiert werden",
                 "Die Vision soll im Gespräch gehalten werden",
+                "Die Mitarbeiter erstellen die Vision",
+                "Die Mitarbeiter sollen über die Vision informiert werden",
                 "Die Mitarbeiter sollen die Vision erarbeiten"
             ],
             a : 0
