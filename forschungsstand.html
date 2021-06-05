@@ -81,6 +81,10 @@
                         <h2>Quelle 1</h2>
                         <img src="assets/img/forschungsstand-q1.png" alt="Quelle 1">
                         <p class="source">(Lauer, 2021)</p>
+                        <div class="full-width center">
+                            <button id="quelle1" class="btn">Erklärung</button>
+                        </div>
+                        <audio src="assets/audio/quelle_2.mp3" id="quelle_1Audio"></audio>
                     </div>
                 </div>
             </div>
@@ -100,7 +104,7 @@
                         <div class="full-width center">
                             <button id="quelle2" class="btn">Erklärung</button>
                         </div>
-                        <audio src="assets/audio/quelle_2.mp3" id="Quelle 2"></audio>
+                        <audio src="assets/audio/quelle_2.mp3" id="quelle_2Audio"></audio>
                     </div>
                 </div>
             </div>
@@ -122,7 +126,7 @@
                         <div class="full-width center">
                             <button id="quelle3" class="btn">Erklärung</button>
                         </div>
-                        <audio src="assets/audio/quelle_3.mp3" id="Quelle 3"></audio>
+                        <audio src="assets/audio/quelle_3.mp3" id="quelle_3Audio"></audio>
                     </div>
                 </div>
             </div>
@@ -156,7 +160,7 @@
                         <div class="full-width center">
                             <button id="quelle4" class="btn">Erklärung</button>
                         </div>
-                        <audio src="assets/audio/quelle_4.mp3" id="Quelle 4"></audio>
+                        <audio src="assets/audio/quelle_4.mp3" id="quelle_4Audio"></audio>
                     </div>
                 </div>
             </div>
@@ -174,7 +178,7 @@
                         <div class="full-width center">
                             <button id="quelle5_6" class="btn">Erklärung</button>
                         </div>
-                        <audio src="assets/audio/quelle5_6.mp3" id="Quelle 5 + 6"></audio>
+                        <audio src="assets/audio/quelle5_6.mp3" id="quelle5_6Audio"></audio>
                     </div>
                 </div>
             </div>
@@ -209,17 +213,20 @@
 </div>
 
 <script>
+    document.getElementById("quelle1").addEventListener("click",function(){
+        document.getElementById("quelle_1Audio").play();
+    });
     document.getElementById("quelle2").addEventListener("click",function(){
-        document.getElementById("quelle_2").play();
+        document.getElementById("quelle_2Audio").play();
     });
     document.getElementById("quelle3").addEventListener("click",function(){
-        document.getElementById("quelle_3").play();
+        document.getElementById("quelle_3Audio").play();
     });
     document.getElementById("quelle4").addEventListener("click",function(){
-        document.getElementById("quelle_4").play();
+        document.getElementById("quelle_4Audio").play();
     });
     document.getElementById("quelle5_6").addEventListener("click",function(){
-        document.getElementById("quelle5_6").play();
+        document.getElementById("quelle5_6Audio").play();
     });
 </script>
 </body>
