@@ -97,6 +97,10 @@
                             • Partizipation schafft Akzeptanz</br>
                         </p>
                         <p class="source">(Kaiser, Schwertner, 2020)</p>
+                        <div class="full-width center">
+                            <button id="quelle2" class="btn">Erklärung</button>
+                        </div>
+                        <audio src="assets/audio/quelle_2.mp3" id="Quelle 2"></audio>
                     </div>
                 </div>
             </div>
@@ -192,5 +196,10 @@
     <a href="#sliderName" class="prev prev-arrow">&larr;</a><a href="#sliderName" class="next next-arrow">&rarr;</a>
 </div>
 
+<script>
+    document.getElementById("quelle2").addEventListener("click",function(){
+        document.getElementById("quelle2").play();
+    });
+</script>
 </body>
 </html>
